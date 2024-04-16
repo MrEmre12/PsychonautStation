@@ -224,3 +224,23 @@
 /area/station/security/prison/garden
 	name = "\improper Prison Garden"
 	icon_state = "prison_garden"
+
+/area/station/security/prison_cell
+	name = "\improper Prison cell"
+	icon_state = "sec_prison"
+	ambientsounds = list(
+		'sound/_psychonaut/ambience/cell1.ogg',
+		'sound/_psychonaut/ambience/cell2.ogg',
+		)
+
+/area/station/security/isolation_cell
+	name = "\improper Isolation Cell"
+	icon_state = "holding_cell"
+	ambientsounds = list(
+		'sound/_psychonaut/ambience/cell1.ogg',
+		'sound/_psychonaut/ambience/cell2.ogg',
+		)
+
+/area/station/security/prison/cell_office
+	name = "\improper Cell Office"
+	icon_state = "checkpoint"

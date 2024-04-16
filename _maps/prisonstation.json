@@ -1,0 +1,77 @@
+{
+	"version": 1,
+	"map_name": "PrsionStation",
+	"map_path": "map_files/PrisonStation",
+	"map_file": "PrsionStation.dmm",
+	"shuttles": {
+		"cargo": "cargo_box",
+		"ferry": "ferry_fancy",
+		"whiteship": "whiteship_meta",
+		"emergency": "emergency_meta"
+	},
+	"job_changes": {
+		"Prisoner": {
+			"spawn_positions": -1,
+			"total_positions": -1
+ 			},
+ 		"Cyborg": {
+			"spawn_positions": 0,
+			"total_positions": 0
+			},
+		"Animal": {
+			"spawn_positions": 0,
+			"total_positions": 0
+			},
+		"Mime": {
+			"spawn_positions": 0,
+			"total_positions": 0
+			}
+		},
+		"Cook": {
+			"additional_cqc_areas": ["/area/station/service/bar", "/area/station/commons/lounge"],
+			"spawn_positions": 2,
+			"total_positions": 2
+		},
+		"Warden": {
+			"spawn_positions": 1,
+			"total_positions": 1
+		},
+		"Security Officer": {
+ 			"spawn_positions": 15,
+			"total_positions": 15
+		},
+		"AI": {
+ 			"spawn_positions": 1,
+			"total_positions": 1
+		},
+		"Brig Physician": {
+			"spawn_positions": 2,
+			"total_positions": 2
+		},
+		"Janitor": {
+			"spawn_positions": 1,
+			"total_positions": 1
+		}
+	,
+		"traits": [
+		{
+			"Down": true,
+ 			"Up": true,
+			"Linkage": null
+		},
+		{
+			"Down": true,
+			"Up": true,
+			"Linkage": null
+		},
+		{
+			"Down": true,
+			"Up": true,
+ 			"Linkage": null
+		},
+		{
+			"Down": true,
+			"Linkage": null
+		}
+	]
+}

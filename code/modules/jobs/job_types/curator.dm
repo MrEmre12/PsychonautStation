@@ -36,6 +36,9 @@
 	voice_of_god_silence_power = 3
 	rpg_title = "Veteran Adventurer"
 
+/datum/job/curator/map_check()
+ return TRUE
+
 /datum/outfit/job/curator
 	name = "Curator"
 	jobtype = /datum/job/curator

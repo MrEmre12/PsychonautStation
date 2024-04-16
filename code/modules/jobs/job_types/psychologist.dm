@@ -33,6 +33,8 @@
 	rpg_title = "Snake Oil Salesman"
 	job_flags = STATION_JOB_FLAGS
 
+/datum/job/psychologist/map_check()
+ return TRUE
 
 /datum/outfit/job/psychologist
 	name = "Psychologist"

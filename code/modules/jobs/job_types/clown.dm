@@ -44,6 +44,8 @@
 		return
 	spawned.apply_pref_name(/datum/preference/name/clown, player_client)
 
+/datum/job/clown/map_check()
+ return TRUE
 
 /datum/outfit/job/clown
 	name = "Clown"

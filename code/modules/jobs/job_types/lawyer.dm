@@ -29,6 +29,8 @@
 
 	job_tone = "objection"
 
+/datum/job/lawyer/map_check()
+ return TRUE
 
 /datum/outfit/job/lawyer
 	name = "Lawyer"

@@ -43,6 +43,8 @@
 		return
 	spawned.apply_pref_name(/datum/preference/name/mime, player_client)
 
+/datum/job/mime/map_check()
+ return TRUE
 
 /datum/outfit/job/mime
 	name = "Mime"
